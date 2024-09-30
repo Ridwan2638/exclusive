@@ -12,7 +12,12 @@ export default {
       laptop:'1440px',
       desktop:'1920px'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Poppins: ['"Poppins"'],
+        Inter: ['"Inter"']
+      }
+    },
   },
   plugins: [],
 }
