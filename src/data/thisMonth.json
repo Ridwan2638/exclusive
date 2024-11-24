@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "percentOff":"-40%",
+        "productImage": "./assets/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png",
+        "name": "The north coat",
+        "salesPrice":"260",
+        "actualPrice":"360",
+        "ratings":"5"
+    },
+    {
+        "id": 2,
+        "percentOff":"-40%",
+        "productImage": "./assets/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png",
+        "name": "Gucci duffle bag",
+        "salesPrice":"960",
+        "actualPrice":"1120",
+        "ratings":"5"
+    },
+    {
+        "id": 3,
+        "percentOff":"-40%",
+        "productImage": "./assets/gammaxx-l240-argb-1-500x500 1.png",
+        "name": "RGB liquid CPU Cooler",
+        "salesPrice":"160",
+        "actualPrice":"170",
+        "ratings":"5"
+    },
+    {
+        "id": 4,
+        "percentOff":"-40%",
+        "productImage": "./assets/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png",
+        "name": "Small BookSelf",
+        "salesPrice":"160",
+        "actualPrice":"120",
+        "ratings":"5"
+    }
+]

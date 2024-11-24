@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "percentOff":"-40%",
+        "productImage": "./assets/g92-2-500x500_1.png",
+        "name": "HAVIT HV-G92 Gamepad",
+        "salesPrice":"160",
+        "actualPrice":"120",
+        "ratings":"5"
+    },
+    {
+        "id": 2,
+        "percentOff":"-35%",
+        "productImage": "./assets/ak-900.png",
+        "name": "AK-900 Wired Keyboard",
+        "salesPrice":"960",
+        "actualPrice":"1160",
+        "ratings":"5"
+    },
+    {
+        "id": 3,
+        "percentOff":"-30%",
+        "productImage": "./assets/g27cq4-500x500 1.png",
+        "name": "IPS LCD Gaming Monitor",
+        "salesPrice":"370",
+        "actualPrice":"400",
+        "ratings":"5"
+    },
+    {
+        "id": 4,
+        "percentOff":"-25%",
+        "productImage": "./assets/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png",
+        "name": "S-Series Comfort Chair ",
+        "salesPrice":"375",
+        "actualPrice":"400",
+        "ratings":"5"
+    },
+    {
+        "id": 5,
+        "percentOff":"-25%",
+        "productImage": "./assets/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png",
+        "name": "S-Series Comfort Chair ",
+        "salesPrice":"375",
+        "actualPrice":"400",
+        "ratings":"5"
+    }
+    
+    
+]

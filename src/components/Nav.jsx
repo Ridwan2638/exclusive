@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import Homepage from "./Homepage";
+import Homepage from "../pages/Homepage";
 import { CiSearch } from "react-icons/ci";
 import Cart from "../assets/Cart.png";
 import wish from "../assets/wishlist.png";
@@ -16,13 +16,13 @@ const Nav = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/">SignUp</Link>
+              <Link to="/SignUp">SignUp</Link>
             </li>
           </ul>
         </div>
@@ -31,7 +31,7 @@ const Nav = () => {
             <input
               type="text"
               placeholder="What are you looking for?"
-              className="bg-[#F5F5F5] font-Poppins text-[12px] "
+              className="bg-[#F5F5F5] font-Poppins text-[12px] outline-none"
             />
             <CiSearch />
           </div>
