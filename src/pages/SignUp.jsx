@@ -2,6 +2,7 @@ import React from "react";
 import SignPics from "../assets/dl.beatsnoop 1.png";
 import { Link } from "react-router-dom";
 import Login from "./Login";
+import { GoogleLogin } from "@react-oauth/google";
 
 const SignUp = () => {
   return (
@@ -43,6 +44,11 @@ const SignUp = () => {
           </div>
           <button type="submit" className="text-[16px] font-medium bg-[#DB4444] py-5 w-full rounded text-white mt-[50px]">Create Account</button>
         </form>
+        <GoogleLogin className="w-full mt-5 py-5" onSuccess={(CredentialResponse)=>{
+          console.log(CredentialResponse)
+        }} onError={() => {
+          console.log("Login Failed")
+        }} />
         <p className="font-regular text-[16px] mt-4 m-auto ">Already have account?  <Link to='/Login' className="font-medium text-[16px] underline underline-offset-[10px]">Log in</Link></p>
       </div>
     </div>
